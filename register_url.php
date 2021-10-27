@@ -1,7 +1,7 @@
 <?php
 
     $consumerKey = 'PASTE YOUR CONSUMER KEY HERE'; //Fill with your app Consumer Key
-	$consumerSecret = 'fZC76PA6KrWdSCGu'; // Fill with your app Secret
+	$consumerSecret = 'PASTE HERE YOUR CONSUMER SECRET KEY'; // Fill with your app Secret
 
 	$headers = ['Content-Type:application/json; charset=utf8'];
 
@@ -21,7 +21,7 @@
 
 	$url = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
 
-	$shortCode = '4075487'; // provide the short code obtained from your test credentials
+	$shortCode = 'PAYBILL NUMBER'; // provide the short code obtained from your test credentials
 
 	/* This two files are provided in the project. */
 	$confirmationUrl = 'confirmation_url.php'; // path to your confirmation url. can be IP address that is publicly accessible or a url
